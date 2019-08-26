@@ -1,9 +1,7 @@
 # Lite Notification Box
 <p align="center">
-  <img src="https://i.imgyukle.com/2019/08/26/o5j820.png" width="300" height="300">
+  <img src="https://i.imgyukle.com/2019/08/26/o5j820.png" width="200px" height="200px">
 </p>
-
-Lite Notification Box
 
 # New Features!
 
