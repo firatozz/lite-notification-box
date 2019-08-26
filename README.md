@@ -1,6 +1,6 @@
 # Lite Notification Box
 
-![notif](https://i.hizliresim.com/jqqk8W.png)
+![notif](https://i.imgyukle.com/2019/08/26/o5j820.png)
 
 Lite Notification Box
 
