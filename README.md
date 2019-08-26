@@ -1,6 +1,6 @@
 # Lite Notification Box
 
-[![N|Solid](https://i.hizliresim.com/jqqk8W.png)
+![N|Solid](https://i.hizliresim.com/jqqk8W.png)
 
 Lite Notification Box
 
