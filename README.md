@@ -1,4 +1,21 @@
 # Lite Notification Box
+
+[![N|Solid](https://i.hizliresim.com/jqqk8W.png)
+
 Lite Notification Box
 
-[![notifImg](https://i.hizliresim.com/jqqk8W.png)](https://hizliresim.com/jqqk8W)
+# New Features!
+
+### Tech
+
+### Installation
+
+### Todos
+
+ - Write MORE Tests
+ - Add Night Mode
+
+License
+----
+
+MIT
