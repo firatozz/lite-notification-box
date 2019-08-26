@@ -1,3 +1,8 @@
 # Lite Notification Box
 Lite Notification Box
-![Alex](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm_5f3CAKzVEgNO6PVvm3zTRI4eLrqh4gw0iRwx496wllsCWRVtw)
+img[src*="#notifImg"] {
+   width:150px;
+   height:100px;
+   text-align:center
+}
+[![notifImg](https://i.hizliresim.com/jqqk8W.png)](https://hizliresim.com/jqqk8W)
