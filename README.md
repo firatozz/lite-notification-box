@@ -1,6 +1,6 @@
 # Lite Notification Box
 
-<img src="https://i.imgyukle.com/2019/08/26/o5j820.png" width="300" height="300" align="center/>
+<img src="https://i.imgyukle.com/2019/08/26/o5j820.png" width="300" height="300" align="center" />
 
 Lite Notification Box
 
