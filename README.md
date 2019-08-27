@@ -24,4 +24,4 @@
 License
 ----
 
-MIT
+MIT license - https://opensource.org/licenses/MIT
