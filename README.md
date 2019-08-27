@@ -7,7 +7,7 @@
  - Customizable via CSS.
  - Cookie support with optional expiry date.
  - Set a timed delay before the script starts tracking show notification box.
- - Showing 6 different positions
+ - 6 different positions on screen
  - 3 different animations
  - Show once per session Option
  - Re-direct and new tab management
