@@ -1,15 +1,15 @@
 window.liteNotificationBox = {
-    position: "bottomRight", // OK
-    animation: "blur", //OK slide, bubble, blur
-    width: "250", // OK
-    height: "250", // OK
-    imageUrl: "https://blog.addthiscdn.com/wp-content/uploads/2015/11/JS-360454.png", // OK
-    targetUrl: "#", // OK
-    targetOpenNewTab: true, // OK
-    delay: "0", // OK
-    css: "", // OK
-    cookieExp: 7, // OK
-    showOncePerSession: false, // OK
+    position: "bottomRight",
+    animation: "blur",
+    width: "250",
+    height: "250",
+    imageUrl: "https://blog.addthiscdn.com/wp-content/uploads/2015/11/JS-360454.png",
+    targetUrl: "#",
+    targetOpenNewTab: true,
+    delay: "0",
+    css: "",
+    cookieExp: 7,
+    showOncePerSession: false,
 
     cookieManager: {
         // Create a cookie
