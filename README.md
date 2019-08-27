@@ -60,6 +60,13 @@ All options must be added to the init function as an object.
 | cookieExp | integer | 7 | The number of days to set the cookie for. A cookie is used to track if the notification box has already been shown to a specific visitor. If the notification box has been shown, it will not show again until the cookie expires. A value of 0 will always show the notification box.
 | showOncePerSession | boolean | false | If true, the notification box will only show once per browser session. If false and cookieExp is set to 0, the notification box will show multiple times in a single browser session.
 
+### Position and Animations Value Types
+
+| Option | Default | Value Names |  
+| ------ | ------ | ------ | ------ |
+| position | bottomRight | bottomRight, bottomLeft, bottomCenter, topRight, topLeft, topCenter
+| animation | blur | blur, slide, bubble
+
 ### Example
 ```html
 <!DOCTYPE html>
