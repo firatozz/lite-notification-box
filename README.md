@@ -67,6 +67,8 @@ All options must be added to the init function as an object.
 | position | bottomRight | bottomRight, bottomLeft, bottomCenter, topRight, topLeft, topCenter
 | animation | blur | blur, slide, bubble
 
+Caution !: The values are case sensivity, so the values must be entered correctly.
+
 ### Example
 ```html
 <!DOCTYPE html>
