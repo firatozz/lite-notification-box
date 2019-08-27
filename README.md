@@ -63,7 +63,7 @@ All options must be added to the init function as an object.
 ### Position and Animations Value Types
 
 | Option | Default | Value Names |  
-| ------ | ------ | ------ | ------ |
+| ------ | ------ | ------ 
 | position | bottomRight | bottomRight, bottomLeft, bottomCenter, topRight, topLeft, topCenter
 | animation | blur | blur, slide, bubble
 
