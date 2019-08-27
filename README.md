@@ -60,8 +60,30 @@ All options must be added to the init function as an object.
 | cookieExp | integer | 7 | The number of days to set the cookie for. A cookie is used to track if the notification box has already been shown to a specific visitor. If the notification box has been shown, it will not show again until the cookie expires. A value of 0 will always show the notification box.
 | showOncePerSession | boolean | false | If true, the notification box will only show once per browser session. If false and cookieExp is set to 0, the notification box will show multiple times in a single browser session.
 
+### Example
+```js
+<script type="text/javascript" src="liteNotificationBox.min.js"></script>
+
+<script type="text/javascript">
+ liteNotificationBox.init({
+        position: "bottomLeft",
+        animation: "bubble",
+        width: 200,
+        height: 200,
+        imageUrl: "https://blog.addthiscdn.com/wp-content/uploads/2015/11/JS-360454.png",
+        targetUrl: "github.com",
+        targetOpenNewTab: true,
+        delay: 5,
+        css: ".ltImg{border-radius:10px;}",
+        cookieExp: 7,
+        showOncePerSession: false,
+    });
+</script>
+```
 
 License
 ----
 
 MIT license - https://opensource.org/licenses/MIT
+
+**Free Software, Hell Yeah!**
