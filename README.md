@@ -61,9 +61,13 @@ All options must be added to the init function as an object.
 | showOncePerSession | boolean | false | If true, the notification box will only show once per browser session. If false and cookieExp is set to 0, the notification box will show multiple times in a single browser session.
 
 ### Example
-```js
-<script type="text/javascript" src="liteNotificationBox.min.js"></script>
-
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="liteNotificationBox.js"></script>
+</head>
+<body></body>
 <script type="text/javascript">
  liteNotificationBox.init({
         position: "bottomLeft",
@@ -79,6 +83,7 @@ All options must be added to the init function as an object.
         showOncePerSession: false,
     });
 </script>
+</html>
 ```
 
 License
