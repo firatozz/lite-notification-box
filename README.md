@@ -12,11 +12,11 @@
  - Show once per session Option
  - Re-direct and new tab management
 
-### Tech
+# Usage
 
-### Installation
+# Customize
 
-### Todos
+# Options
 
  - Write MORE Tests
  - Add Night Mode
