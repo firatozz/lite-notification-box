@@ -65,7 +65,7 @@ All options must be added to the init function as an object.
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" src="liteNotificationBox.js"></script>
+    <script type="text/javascript" src="liteNotificationBox.min.js"></script>
 </head>
 <body></body>
 <script type="text/javascript">
