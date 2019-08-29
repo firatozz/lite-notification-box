@@ -75,7 +75,7 @@ window.liteNotificationBox = {
     addCSS: function () {
         // Base CSS styles for the notification box
         var css = document.createTextNode(
-            ".ltNotificationBox{position:absolute; display:block; font-family: monospace;font-size: 15px; width:" +
+            ".ltNotificationBox{position:fixed; display:block; font-family: monospace;font-size: 15px; width:" +
             this.width + "px; height: " + this.height + "px; z-index: 10002;" +
             this.constPosition[prePosition][0] + "; " + this.constPosition[prePosition][1] + "; " + this.constPosition[prePosition][2] + "; " +
             this.constAnimation[preAnimation][0] + ";}" +
