@@ -1,15 +1,15 @@
 window.liteNotificationBox = {
-    position: "bottomRight",
-    animation: "blur",
-    width: "250",
-    height: "250",
-    imageUrl: "https://blog.addthiscdn.com/wp-content/uploads/2015/11/JS-360454.png",
-    targetUrl: "#",
-    targetOpenNewTab: true,
-    delay: "0",
-    css: "",
-    cookieExp: 7,
-    showOncePerSession: false,
+    position: "bottomRight", // OK
+    animation: "blur", //OK slide, bubble, blur
+    width: 250, // OK
+    height: 250, // OK
+    imageUrl: "https://blog.addthiscdn.com/wp-content/uploads/2015/11/JS-360454.png", // OK
+    targetUrl: "#", // OK
+    targetOpenNewTab: true, // OK
+    delay: 0, // OK
+    css: "", // OK
+    cookieExp: 7, // OK
+    showOncePerSession: false, // OK
 
     cookieManager: {
         // Create a cookie
@@ -81,7 +81,7 @@ window.liteNotificationBox = {
             this.constAnimation[preAnimation][0] + ";}" +
             ".ltNotificationBox.active{" + this.constAnimation[preAnimation][1] + ";}" +
             ".ltImg{width:" + this.width + "px; height: " + this.height + "px;}" +
-            ".ltCloseEl{position: absolute;display:inline-block; top: 2%;right: 4%;cursor: pointer; color:#fff;border-radius: 50%;border: 2px solid;width: 18px;height:18px;text-align: center;}" +
+            ".ltCloseEl{position: absolute;display:inline-block; top: 2%;right: 4%;cursor: pointer; color:#fff;border-radius: 50%;border: 2px solid;width: 10%;height:10%;text-align: center;}" +
             this.css
         );
 
@@ -137,8 +137,8 @@ window.liteNotificationBox = {
     //Defined Constant Animations
     constAnimation: {
         slide: {
-            0: ["transition:1s ease-in-out;" + "_exPOS;"],
-            1: ["transition:1s ease-in-out;" + "_activePOS;"]
+            0: ["transition:1s ease-in-out;" + "_exPOS;"+ "visibility:hidden;" + "overflow:hidden;"],
+            1: ["transition:1s ease-in-out;" + "_activePOS;"+ "visibility:visible;"]
         },
         bubble: {
             0: ["transform:scale(0);" + "transition:.5s ease-in-out;" + "visibility:hidden;" + "overflow:hidden;"],
@@ -166,7 +166,7 @@ window.liteNotificationBox = {
             if (Object.keys(this.constAnimation)[i] === this.animation) {
                 preAnimation = (Object.keys(this.constAnimation)[i]);
                 if (this.animation === "slide") {
-                    document.body.style.overflow = "hidden";
+                    document.body.style.overflowX = "hidden";
                 }
                 this.constAnimation[preAnimation][1][0] = this.constAnimation[preAnimation][1][0].replace("_activePOS", this.constPosition[prePosition][1][0]);
                 this.constAnimation[preAnimation][0][0] = this.constAnimation[preAnimation][0][0].replace("_exPOS", this.constPosition[prePosition][3][0]);
