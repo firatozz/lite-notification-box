@@ -81,7 +81,7 @@ window.liteNotificationBox = {
             this.constAnimation[preAnimation][0] + ";}" +
             ".ltNotificationBox.active{" + this.constAnimation[preAnimation][1] + ";}" +
             ".ltImg{width:" + this.width + "px; height: " + this.height + "px;}" +
-            ".ltCloseEl{position: absolute;display:inline-block; top: 2%;right: 4%;cursor: pointer; color:#fff;border-radius: 50%;border: 2px solid;width: 10%;height:10%;text-align: center;}" +
+            ".ltCloseEl{position: absolute;display:inline-block; top: 2%;right: 4%;cursor: pointer; color:#fff;border-radius: 50%;border: 2px solid;width: 8%;height:8%;text-align: center;}" +
             this.css
         );
 
