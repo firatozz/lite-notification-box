@@ -12,6 +12,8 @@
  - Show once per session Option
  - Re-direct and new tab management
 
+   <a href="https://firatozz.github.io/repo-pages/liteNotificationBox.html" target="_blank">Demo</a>
+   
 # Usage
 
 Simply include the script and call its init function with any options you choose. 
