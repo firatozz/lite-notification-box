@@ -85,7 +85,7 @@ CAUTION !: The values are case sensivity, so the values must be entered correctl
         animation: "bubble",
         width: 200,
         height: 200,
-        imageUrl: "https://raw.githubusercontent.com/firatozz/firatozz.github.io/master/assets/img/javascript.png",
+        imageUrl: "https:firatozz/firatozz.github.io/master/assets/img/javascript.png",
         targetUrl: "github.com",
         targetOpenNewTab: true,
         delay: 5,
