@@ -97,39 +97,39 @@ window.liteNotificationBox = {
     // Defined Constant Positions
     constPosition: {
         bottomRight: {
-            0: ["bottom: 30px;"],
-            1: ["right: 30px;"],
+            0: ["bottom: 5px;"],
+            1: ["right: 5px;"],
             2: ["transform-origin:right bottom;"],
             3: ["right: -100%"]
         },
         bottomLeft: {
-            0: ["bottom: 30px;"],
-            1: ["left: 30px;"],
+            0: ["bottom: 5px;"],
+            1: ["left: 5px;"],
             2: ["transform-origin:left bottom;"],
             3: ["left: -100%"]
         },
         bottomCenter: {
-            0: ["bottom: 30px;"],
-            1: ["transform-origin:center bottom;" + "bottom: 30px;"],
+            0: ["bottom: 5px;"],
+            1: ["transform-origin:center bottom;" + "bottom: 5px;"],
             2: ["left:calc(50% - _WIDTHpx);"],
             3: ["bottom: -100%"]
         },
         topRight: {
-            0: ["top: 30px;"],
-            1: ["right: 30px;"],
+            0: ["top: 5px;"],
+            1: ["right: 5px;"],
             2: ["transform-origin:right top;"],
             3: ["right: -100%"]
         },
         topLeft: {
-            0: ["top: 30px;"],
-            1: ["left: 30px;"],
+            0: ["top: 5px;"],
+            1: ["left: 5px;"],
             2: ["transform-origin:left top;"],
             3: ["left: -100%"]
         },
         topCenter: {
-            0: ["top:30px;"],
-            1: ["transform-origin:center top;" + "top:30px;"],
-            2: ["left:calc(50% - _WIDTHpx)İ"],
+            0: ["top:5px;"],
+            1: ["transform-origin:center top;" + "top:5px;"],
+            2: ["left:calc(50% - _WIDTHpx)"],
             3: ["top: -100%"]
         }
     },
