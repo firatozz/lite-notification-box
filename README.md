@@ -1,6 +1,6 @@
 # Lite Notification Box
 <p align="center">
-  <img src="https://i.imgyukle.com/2019/08/26/o5j820.png" width="200px" height="200px">
+  <img src="https://github.com/firatozz/firatozz.github.io/blob/master/assets/img/freelyshout.png" width="200px" height="200px">
 </p>
 
 # New Features!
